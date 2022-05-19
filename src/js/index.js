@@ -3,7 +3,7 @@
 
   - colocar a classe selecionada no personagem que passamos o mouse em cima para adicionar a animação nele 
 
- - retirar a classe selecionada do personagem que está selecionado
+ - retirar a classe selecionado do personagem que está selecionado
 
 
  OBJETIVO 2 - quando passar o mouse em cima do personagem, trocar a imagem e nome do personagem grande
@@ -19,14 +19,14 @@ personagens.forEach((personagem) => {
 
     const idSelecionado = personagem.attributes.id.value;
 
-    if(idSelecionado === 'ultron') return;
+    if(idSelecionado === 'samara') return;
 
     /* 
         OBJETIVO 1 - quando passar o mouse em cima do personagem temos que:
 
-        - colocar a classe selecionada no personagem que passamos o mouse em cima para adicionar a animação nele 
+        - colocar a classe selecionado no personagem que passamos o mouse em cima para adicionar a animação nele 
 
-        - retirar a classe selecionada do personagem que está selecionado
+        - retirar a classe selecionado do personagem que está selecionado
     */
     const personagemSelecionado = document.querySelector(".selecionado");
     personagemSelecionado.classList.remove("selecionado");
